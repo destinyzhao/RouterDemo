@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1961B6262D17DC0093BB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961B5262D17DC0093BB9B /* AppDelegate.m */; };
+		DE1961BC262D17DC0093BB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961BB262D17DC0093BB9B /* ViewController.m */; };
+		DE1961C1262D17E00093BB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1961C0262D17E00093BB9B /* Assets.xcassets */; };
+		DE1961C4262D17E00093BB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1961C2262D17E00093BB9B /* LaunchScreen.storyboard */; };
+		DE1961C7262D17E00093BB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961C6262D17E00093BB9B /* main.m */; };
+		DE1961D1262D17E10093BB9B /* RouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961D0262D17E10093BB9B /* RouterDemoTests.m */; };
+		DE1961DC262D17E10093BB9B /* RouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961DB262D17E10093BB9B /* RouterDemoUITests.m */; };
+		DE1961F5262D18E50093BB9B /* AHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961F3262D18E50093BB9B /* AHomeController.m */; };
+		DE1961F6262D18E50093BB9B /* AHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1961F4262D18E50093BB9B /* AHomeController.xib */; };
+		DE196200262D18F80093BB9B /* BHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961FE262D18F80093BB9B /* BHomeController.m */; };
+		DE196201262D18F80093BB9B /* BHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1961FF262D18F80093BB9B /* BHomeController.xib */; };
+		DE196208262D19090093BB9B /* CHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196206262D19090093BB9B /* CHomeController.m */; };
+		DE196209262D19090093BB9B /* CHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196207262D19090093BB9B /* CHomeController.xib */; };
+		DE196210262D1A720093BB9B /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19620E262D1A710093BB9B /* MainController.m */; };
+		DE196218262D1AD70093BB9B /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196217262D1AD70093BB9B /* BaseTabBarController.m */; };
+		DE196222262D1BCB0093BB9B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19621D262D1BCB0093BB9B /* BaseNavigationController.m */; };
+		DE196223262D1BCB0093BB9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196220262D1BCB0093BB9B /* BaseViewController.m */; };
+		DE19622E262D1D0B0093BB9B /* UIColor+RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */; };
+		DE196269262D2E100093BB9B /* ADetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196267262D2E100093BB9B /* ADetailController.m */; };
+		DE19626A262D2E100093BB9B /* ADetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196268262D2E100093BB9B /* ADetailController.xib */; };
+		DE196271262D2E210093BB9B /* BDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19626F262D2E210093BB9B /* BDetailController.m */; };
+		DE196272262D2E210093BB9B /* BDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196270262D2E210093BB9B /* BDetailController.xib */; };
+		DE196279262D2E2F0093BB9B /* CDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196277262D2E2F0093BB9B /* CDetailController.m */; };
+		DE19627A262D2E2F0093BB9B /* CDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196278262D2E2F0093BB9B /* CDetailController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1961CD262D17E10093BB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1961A9262D17DC0093BB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1961B0262D17DC0093BB9B;
+			remoteInfo = RouterDemo;
+		};
+		DE1961D8262D17E10093BB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1961A9262D17DC0093BB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1961B0262D17DC0093BB9B;
+			remoteInfo = RouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1961B1262D17DC0093BB9B /* RouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1961B4262D17DC0093BB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE1961B5262D17DC0093BB9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE1961BA262D17DC0093BB9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE1961BB262D17DC0093BB9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE1961C0262D17E00093BB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1961C3262D17E00093BB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1961C5262D17E00093BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1961C6262D17E00093BB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE1961CC262D17E10093BB9B /* RouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1961D0262D17E10093BB9B /* RouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterDemoTests.m; sourceTree = "<group>"; };
+		DE1961D2262D17E10093BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1961D7262D17E10093BB9B /* RouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1961DB262D17E10093BB9B /* RouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterDemoUITests.m; sourceTree = "<group>"; };
+		DE1961DD262D17E10093BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1961F2262D18E50093BB9B /* AHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHomeController.h; sourceTree = "<group>"; };
+		DE1961F3262D18E50093BB9B /* AHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHomeController.m; sourceTree = "<group>"; };
+		DE1961F4262D18E50093BB9B /* AHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AHomeController.xib; sourceTree = "<group>"; };
+		DE1961FD262D18F80093BB9B /* BHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHomeController.h; sourceTree = "<group>"; };
+		DE1961FE262D18F80093BB9B /* BHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHomeController.m; sourceTree = "<group>"; };
+		DE1961FF262D18F80093BB9B /* BHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BHomeController.xib; sourceTree = "<group>"; };
+		DE196205262D19090093BB9B /* CHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHomeController.h; sourceTree = "<group>"; };
+		DE196206262D19090093BB9B /* CHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHomeController.m; sourceTree = "<group>"; };
+		DE196207262D19090093BB9B /* CHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHomeController.xib; sourceTree = "<group>"; };
+		DE19620E262D1A710093BB9B /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		DE19620F262D1A710093BB9B /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		DE196216262D1AD70093BB9B /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		DE196217262D1AD70093BB9B /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		DE19621D262D1BCB0093BB9B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		DE19621E262D1BCB0093BB9B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		DE196220262D1BCB0093BB9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DE196221262D1BCB0093BB9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DE19622C262D1D0B0093BB9B /* UIColor+RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBColor.h"; sourceTree = "<group>"; };
+		DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBColor.m"; sourceTree = "<group>"; };
+		DE196232262D20720093BB9B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DE196266262D2E100093BB9B /* ADetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADetailController.h; sourceTree = "<group>"; };
+		DE196267262D2E100093BB9B /* ADetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADetailController.m; sourceTree = "<group>"; };
+		DE196268262D2E100093BB9B /* ADetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADetailController.xib; sourceTree = "<group>"; };
+		DE19626E262D2E210093BB9B /* BDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDetailController.h; sourceTree = "<group>"; };
+		DE19626F262D2E210093BB9B /* BDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDetailController.m; sourceTree = "<group>"; };
+		DE196270262D2E210093BB9B /* BDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDetailController.xib; sourceTree = "<group>"; };
+		DE196276262D2E2F0093BB9B /* CDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDetailController.h; sourceTree = "<group>"; };
+		DE196277262D2E2F0093BB9B /* CDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDetailController.m; sourceTree = "<group>"; };
+		DE196278262D2E2F0093BB9B /* CDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CDetailController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1961AE262D17DC0093BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961C9262D17E10093BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961D4262D17E10093BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1961A8262D17DC0093BB9B = {
+			isa = PBXGroup;
+			children = (
+				DE1961B3262D17DC0093BB9B /* RouterDemo */,
+				DE1961CF262D17E10093BB9B /* RouterDemoTests */,
+				DE1961DA262D17E10093BB9B /* RouterDemoUITests */,
+				DE1961B2262D17DC0093BB9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1961B2262D17DC0093BB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961B1262D17DC0093BB9B /* RouterDemo.app */,
+				DE1961CC262D17E10093BB9B /* RouterDemoTests.xctest */,
+				DE1961D7262D17E10093BB9B /* RouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1961B3262D17DC0093BB9B /* RouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE19622A262D1CF00093BB9B /* Category */,
+				DE196214262D1AD70093BB9B /* Base */,
+				DE19620D262D1A710093BB9B /* Main */,
+				DE1961F0262D18920093BB9B /* A_Module */,
+				DE1961EE262D187F0093BB9B /* B_Module */,
+				DE1961EC262D187F0093BB9B /* C_Module */,
+				DE1961B4262D17DC0093BB9B /* AppDelegate.h */,
+				DE1961B5262D17DC0093BB9B /* AppDelegate.m */,
+				DE1961BA262D17DC0093BB9B /* ViewController.h */,
+				DE1961BB262D17DC0093BB9B /* ViewController.m */,
+				DE1961C0262D17E00093BB9B /* Assets.xcassets */,
+				DE1961C2262D17E00093BB9B /* LaunchScreen.storyboard */,
+				DE1961C5262D17E00093BB9B /* Info.plist */,
+				DE1961C6262D17E00093BB9B /* main.m */,
+				DE196232262D20720093BB9B /* PrefixHeader.pch */,
+			);
+			path = RouterDemo;
+			sourceTree = "<group>";
+		};
+		DE1961CF262D17E10093BB9B /* RouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961D0262D17E10093BB9B /* RouterDemoTests.m */,
+				DE1961D2262D17E10093BB9B /* Info.plist */,
+			);
+			path = RouterDemoTests;
+			sourceTree = "<group>";
+		};
+		DE1961DA262D17E10093BB9B /* RouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961DB262D17E10093BB9B /* RouterDemoUITests.m */,
+				DE1961DD262D17E10093BB9B /* Info.plist */,
+			);
+			path = RouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		DE1961EC262D187F0093BB9B /* C_Module */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961ED262D187F0093BB9B /* Controller */,
+			);
+			path = C_Module;
+			sourceTree = "<group>";
+		};
+		DE1961ED262D187F0093BB9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE196205262D19090093BB9B /* CHomeController.h */,
+				DE196206262D19090093BB9B /* CHomeController.m */,
+				DE196207262D19090093BB9B /* CHomeController.xib */,
+				DE196276262D2E2F0093BB9B /* CDetailController.h */,
+				DE196277262D2E2F0093BB9B /* CDetailController.m */,
+				DE196278262D2E2F0093BB9B /* CDetailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE1961EE262D187F0093BB9B /* B_Module */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961EF262D187F0093BB9B /* Controller */,
+			);
+			path = B_Module;
+			sourceTree = "<group>";
+		};
+		DE1961EF262D187F0093BB9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961FD262D18F80093BB9B /* BHomeController.h */,
+				DE1961FE262D18F80093BB9B /* BHomeController.m */,
+				DE1961FF262D18F80093BB9B /* BHomeController.xib */,
+				DE19626E262D2E210093BB9B /* BDetailController.h */,
+				DE19626F262D2E210093BB9B /* BDetailController.m */,
+				DE196270262D2E210093BB9B /* BDetailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE1961F0262D18920093BB9B /* A_Module */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961F1262D18920093BB9B /* Controller */,
+			);
+			path = A_Module;
+			sourceTree = "<group>";
+		};
+		DE1961F1262D18920093BB9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE1961F2262D18E50093BB9B /* AHomeController.h */,
+				DE1961F3262D18E50093BB9B /* AHomeController.m */,
+				DE1961F4262D18E50093BB9B /* AHomeController.xib */,
+				DE196266262D2E100093BB9B /* ADetailController.h */,
+				DE196267262D2E100093BB9B /* ADetailController.m */,
+				DE196268262D2E100093BB9B /* ADetailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE19620D262D1A710093BB9B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DE19620F262D1A710093BB9B /* MainController.h */,
+				DE19620E262D1A710093BB9B /* MainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DE196214262D1AD70093BB9B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DE19621C262D1BCB0093BB9B /* BaseNavigationController */,
+				DE19621F262D1BCB0093BB9B /* BaseViewController */,
+				DE196215262D1AD70093BB9B /* BaseTabBarController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DE196215262D1AD70093BB9B /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DE196216262D1AD70093BB9B /* BaseTabBarController.h */,
+				DE196217262D1AD70093BB9B /* BaseTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		DE19621C262D1BCB0093BB9B /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DE19621E262D1BCB0093BB9B /* BaseNavigationController.h */,
+				DE19621D262D1BCB0093BB9B /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		DE19621F262D1BCB0093BB9B /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE196221262D1BCB0093BB9B /* BaseViewController.h */,
+				DE196220262D1BCB0093BB9B /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		DE19622A262D1CF00093BB9B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DE19622B262D1D0B0093BB9B /* UIColor */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DE19622B262D1D0B0093BB9B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DE19622C262D1D0B0093BB9B /* UIColor+RGBColor.h */,
+				DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1961B0262D17DC0093BB9B /* RouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1961E0262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemo" */;
+			buildPhases = (
+				DE1961AD262D17DC0093BB9B /* Sources */,
+				DE1961AE262D17DC0093BB9B /* Frameworks */,
+				DE1961AF262D17DC0093BB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterDemo;
+			productName = RouterDemo;
+			productReference = DE1961B1262D17DC0093BB9B /* RouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1961CB262D17E10093BB9B /* RouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1961E3262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemoTests" */;
+			buildPhases = (
+				DE1961C8262D17E10093BB9B /* Sources */,
+				DE1961C9262D17E10093BB9B /* Frameworks */,
+				DE1961CA262D17E10093BB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1961CE262D17E10093BB9B /* PBXTargetDependency */,
+			);
+			name = RouterDemoTests;
+			productName = RouterDemoTests;
+			productReference = DE1961CC262D17E10093BB9B /* RouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1961D6262D17E10093BB9B /* RouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1961E6262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemoUITests" */;
+			buildPhases = (
+				DE1961D3262D17E10093BB9B /* Sources */,
+				DE1961D4262D17E10093BB9B /* Frameworks */,
+				DE1961D5262D17E10093BB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1961D9262D17E10093BB9B /* PBXTargetDependency */,
+			);
+			name = RouterDemoUITests;
+			productName = RouterDemoUITests;
+			productReference = DE1961D7262D17E10093BB9B /* RouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1961A9262D17DC0093BB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DE1961B0262D17DC0093BB9B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DE1961CB262D17E10093BB9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DE1961B0262D17DC0093BB9B;
+					};
+					DE1961D6262D17E10093BB9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DE1961B0262D17DC0093BB9B;
+					};
+				};
+			};
+			buildConfigurationList = DE1961AC262D17DC0093BB9B /* Build configuration list for PBXProject "RouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1961A8262D17DC0093BB9B;
+			productRefGroup = DE1961B2262D17DC0093BB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1961B0262D17DC0093BB9B /* RouterDemo */,
+				DE1961CB262D17E10093BB9B /* RouterDemoTests */,
+				DE1961D6262D17E10093BB9B /* RouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1961AF262D17DC0093BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE19627A262D2E2F0093BB9B /* CDetailController.xib in Resources */,
+				DE196272262D2E210093BB9B /* BDetailController.xib in Resources */,
+				DE1961C4262D17E00093BB9B /* LaunchScreen.storyboard in Resources */,
+				DE1961C1262D17E00093BB9B /* Assets.xcassets in Resources */,
+				DE1961F6262D18E50093BB9B /* AHomeController.xib in Resources */,
+				DE196209262D19090093BB9B /* CHomeController.xib in Resources */,
+				DE19626A262D2E100093BB9B /* ADetailController.xib in Resources */,
+				DE196201262D18F80093BB9B /* BHomeController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961CA262D17E10093BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961D5262D17E10093BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1961AD262D17DC0093BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1961BC262D17DC0093BB9B /* ViewController.m in Sources */,
+				DE1961B6262D17DC0093BB9B /* AppDelegate.m in Sources */,
+				DE196223262D1BCB0093BB9B /* BaseViewController.m in Sources */,
+				DE196208262D19090093BB9B /* CHomeController.m in Sources */,
+				DE196279262D2E2F0093BB9B /* CDetailController.m in Sources */,
+				DE1961C7262D17E00093BB9B /* main.m in Sources */,
+				DE196222262D1BCB0093BB9B /* BaseNavigationController.m in Sources */,
+				DE196218262D1AD70093BB9B /* BaseTabBarController.m in Sources */,
+				DE19622E262D1D0B0093BB9B /* UIColor+RGBColor.m in Sources */,
+				DE196210262D1A720093BB9B /* MainController.m in Sources */,
+				DE196271262D2E210093BB9B /* BDetailController.m in Sources */,
+				DE1961F5262D18E50093BB9B /* AHomeController.m in Sources */,
+				DE196269262D2E100093BB9B /* ADetailController.m in Sources */,
+				DE196200262D18F80093BB9B /* BHomeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961C8262D17E10093BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1961D1262D17E10093BB9B /* RouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1961D3262D17E10093BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1961DC262D17E10093BB9B /* RouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1961CE262D17E10093BB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1961B0262D17DC0093BB9B /* RouterDemo */;
+			targetProxy = DE1961CD262D17E10093BB9B /* PBXContainerItemProxy */;
+		};
+		DE1961D9262D17E10093BB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1961B0262D17DC0093BB9B /* RouterDemo */;
+			targetProxy = DE1961D8262D17E10093BB9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1961C2262D17E00093BB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1961C3262D17E00093BB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1961DE262D17E10093BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RouterDemo/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE1961DF262D17E10093BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RouterDemo/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1961E1262D17E10093BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN37GFA72R;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1961E2262D17E10093BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NN37GFA72R;
+				INFOPLIST_FILE = RouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE1961E4262D17E10093BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterDemo.app/RouterDemo";
+			};
+			name = Debug;
+		};
+		DE1961E5262D17E10093BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterDemo.app/RouterDemo";
+			};
+			name = Release;
+		};
+		DE1961E7262D17E10093BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RouterDemo;
+			};
+			name = Debug;
+		};
+		DE1961E8262D17E10093BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.RouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1961AC262D17DC0093BB9B /* Build configuration list for PBXProject "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1961DE262D17E10093BB9B /* Debug */,
+				DE1961DF262D17E10093BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1961E0262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1961E1262D17E10093BB9B /* Debug */,
+				DE1961E2262D17E10093BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1961E3262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1961E4262D17E10093BB9B /* Debug */,
+				DE1961E5262D17E10093BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1961E6262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1961E7262D17E10093BB9B /* Debug */,
+				DE1961E8262D17E10093BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1961A9262D17DC0093BB9B /* Project object */;
+}
