@@ -12,7 +12,7 @@ typedef  void (^BackBlock)(NSDictionary *valueDic);
 
 @interface BaseViewController : UIViewController
 
-@property (strong, nonatomic) NSDictionary *valueDic;
+@property (strong, nonatomic) NSDictionary *vauleParameter;
 /** 完成的回调block */
 @property (nonatomic, copy) BackBlock backBlock;
 

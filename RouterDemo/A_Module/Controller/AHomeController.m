@@ -61,6 +61,7 @@
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     [param setValue:@"APage1Controller" forKey:@"vcClassName"];
     [param setValue:@"callback" forKey:@"callback"];
+    [param setValue:@{@"value":@"我是上一个页面传过来的value"} forKey:@"vauleParameter"];
     
     UIViewController *viewController = [[DRouter sharedInstance]mediator_AModulePage1:param completion:^(NSDictionary * _Nonnull dic) {
         [self showAlert:[dic objectForKey:@"value"]];

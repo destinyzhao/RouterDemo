@@ -18,6 +18,13 @@
     // Do any additional setup after loading the view from its nib.
     
     self.title = @"A_Module_Page1";
+    
+    NSDictionary *vauleParameter = [self valueForKey:@"vauleParameter"];
+    
+    if(vauleParameter != nil){
+        [self showAlert:[vauleParameter objectForKey:@"value"]];
+    }
+    
 }
 
 - (IBAction)blockAction:(UIButton *)sender {
@@ -28,6 +35,22 @@
     }else{
         [self.navigationController popViewControllerAnimated:YES];
     }
+}
+
+
+- (void)showAlert:(NSString *)msg{
+    
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"title"
+                                                                   message:msg
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {
+                                                                  //响应事件
+                                                                  NSLog(@"action = %@", action);
+    }];
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 /*

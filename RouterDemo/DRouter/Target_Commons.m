@@ -22,9 +22,12 @@ NSString * const DRouterTargetCommons = @"Commons";
     
 //    callBlock callback = params[@"callback"];
     
-    // 因为action是从属于ModuleA的，所以action直接可以使用ModuleA里的所有声明
     Class class = NSClassFromString(vcClassName);
     UIViewController *controller = [[class alloc] init];
+    //传值
+    if([params objectForKey:@"vauleParameter"] != nil){
+        [controller setValue:[params objectForKey:@"vauleParameter"] forKey:@"vauleParameter"];
+    }
     
 //    controller.backBlock = ^(NSDictionary *valueDic) {
 //        if (callback) {
