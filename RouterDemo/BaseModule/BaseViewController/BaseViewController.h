@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef  void (^DidViewControllerBlock)(NSDictionary *valueDic);
+
 @interface BaseViewController : UIViewController
 
 @property (strong, nonatomic) NSDictionary *valueDic;
-@property (strong, nonatomic) NSMutableDictionary *mValueDic;
+/** 完成的回调block */
+@property (nonatomic, copy) DidViewControllerBlock didViewControllerBlock;
 
 - (void)onGoBack;
 

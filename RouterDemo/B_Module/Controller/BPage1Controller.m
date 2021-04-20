@@ -1,21 +1,31 @@
 //
-//  BDetailController.m
+//  BPage1Controller.m
 //  RouterDemo
 //
-//  Created by Destiny on 2021/4/19.
+//  Created by Destiny on 2021/4/20.
 //
 
-#import "BDetailController.h"
+#import "BPage1Controller.h"
 
-@interface BDetailController ()
+@interface BPage1Controller ()
 
 @end
 
-@implementation BDetailController
+@implementation BPage1Controller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (IBAction)blockAction:(UIButton *)sender {
+    if(self.didViewControllerBlock){
+        [self.navigationController popViewControllerAnimated:YES];
+        
+        self.didViewControllerBlock(@{@"value":@"B_Module_Page1_Block"});
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 /*

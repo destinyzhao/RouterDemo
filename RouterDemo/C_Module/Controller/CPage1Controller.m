@@ -1,21 +1,31 @@
 //
-//  CDetailController.m
+//  CPage1Controller.m
 //  RouterDemo
 //
-//  Created by Destiny on 2021/4/19.
+//  Created by Destiny on 2021/4/20.
 //
 
-#import "CDetailController.h"
+#import "CPage1Controller.h"
 
-@interface CDetailController ()
+@interface CPage1Controller ()
 
 @end
 
-@implementation CDetailController
+@implementation CPage1Controller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (IBAction)blockAction:(UIButton *)sender {
+    if(self.didViewControllerBlock){
+        [self.navigationController popViewControllerAnimated:YES];
+        
+        self.didViewControllerBlock(@{@"value":@"C_Module_Page1_Block"});
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 /*

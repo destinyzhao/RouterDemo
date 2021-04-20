@@ -1,21 +1,31 @@
 //
-//  ADetailController.m
+//  APage1Controller.m
 //  RouterDemo
 //
-//  Created by Destiny on 2021/4/19.
+//  Created by Destiny on 2021/4/20.
 //
 
-#import "ADetailController.h"
+#import "APage1Controller.h"
 
-@interface ADetailController ()
+@interface APage1Controller ()
 
 @end
 
-@implementation ADetailController
+@implementation APage1Controller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (IBAction)blockAction:(UIButton *)sender {
+    if(self.didViewControllerBlock){
+        [self.navigationController popViewControllerAnimated:YES];
+        
+        self.didViewControllerBlock(@{@"value":@"A_Module_Page1_Block"});
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 /*

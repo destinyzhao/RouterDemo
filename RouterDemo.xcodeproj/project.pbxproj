@@ -25,12 +25,18 @@
 		DE196222262D1BCB0093BB9B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19621D262D1BCB0093BB9B /* BaseNavigationController.m */; };
 		DE196223262D1BCB0093BB9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196220262D1BCB0093BB9B /* BaseViewController.m */; };
 		DE19622E262D1D0B0093BB9B /* UIColor+RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */; };
-		DE196269262D2E100093BB9B /* ADetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196267262D2E100093BB9B /* ADetailController.m */; };
-		DE19626A262D2E100093BB9B /* ADetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196268262D2E100093BB9B /* ADetailController.xib */; };
-		DE196271262D2E210093BB9B /* BDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19626F262D2E210093BB9B /* BDetailController.m */; };
-		DE196272262D2E210093BB9B /* BDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196270262D2E210093BB9B /* BDetailController.xib */; };
-		DE196279262D2E2F0093BB9B /* CDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE196277262D2E2F0093BB9B /* CDetailController.m */; };
-		DE19627A262D2E2F0093BB9B /* CDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE196278262D2E2F0093BB9B /* CDetailController.xib */; };
+		DE2F6A34262E5AE400EF1B06 /* APage1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A32262E5AE400EF1B06 /* APage1Controller.m */; };
+		DE2F6A35262E5AE400EF1B06 /* APage1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2F6A33262E5AE400EF1B06 /* APage1Controller.xib */; };
+		DE2F6A3F262E5AFF00EF1B06 /* BPage1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A3D262E5AFF00EF1B06 /* BPage1Controller.m */; };
+		DE2F6A40262E5AFF00EF1B06 /* BPage1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2F6A3E262E5AFF00EF1B06 /* BPage1Controller.xib */; };
+		DE2F6A4A262E5B1600EF1B06 /* CPage1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A48262E5B1600EF1B06 /* CPage1Controller.m */; };
+		DE2F6A4B262E5B1600EF1B06 /* CPage1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2F6A49262E5B1600EF1B06 /* CPage1Controller.xib */; };
+		DE2F6A6C262E6B0000EF1B06 /* DRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A6A262E6B0000EF1B06 /* DRouter.m */; };
+		DE2F6A72262E6CAC00EF1B06 /* Target_Commons.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */; };
+		DE2F6AA2262E746800EF1B06 /* DRouter+A_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */; };
+		DE2F6AB7262E87A100EF1B06 /* NSObject+XYSKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */; };
+		DE2F6ABD262E9F7900EF1B06 /* DRouter+B_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */; };
+		DE2F6AC9262EA2CA00EF1B06 /* DRouter+C_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,15 +92,27 @@
 		DE19622C262D1D0B0093BB9B /* UIColor+RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBColor.h"; sourceTree = "<group>"; };
 		DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBColor.m"; sourceTree = "<group>"; };
 		DE196232262D20720093BB9B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		DE196266262D2E100093BB9B /* ADetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADetailController.h; sourceTree = "<group>"; };
-		DE196267262D2E100093BB9B /* ADetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADetailController.m; sourceTree = "<group>"; };
-		DE196268262D2E100093BB9B /* ADetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADetailController.xib; sourceTree = "<group>"; };
-		DE19626E262D2E210093BB9B /* BDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDetailController.h; sourceTree = "<group>"; };
-		DE19626F262D2E210093BB9B /* BDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDetailController.m; sourceTree = "<group>"; };
-		DE196270262D2E210093BB9B /* BDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDetailController.xib; sourceTree = "<group>"; };
-		DE196276262D2E2F0093BB9B /* CDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDetailController.h; sourceTree = "<group>"; };
-		DE196277262D2E2F0093BB9B /* CDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDetailController.m; sourceTree = "<group>"; };
-		DE196278262D2E2F0093BB9B /* CDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CDetailController.xib; sourceTree = "<group>"; };
+		DE2F6A31262E5AE400EF1B06 /* APage1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APage1Controller.h; sourceTree = "<group>"; };
+		DE2F6A32262E5AE400EF1B06 /* APage1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APage1Controller.m; sourceTree = "<group>"; };
+		DE2F6A33262E5AE400EF1B06 /* APage1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = APage1Controller.xib; sourceTree = "<group>"; };
+		DE2F6A3C262E5AFF00EF1B06 /* BPage1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPage1Controller.h; sourceTree = "<group>"; };
+		DE2F6A3D262E5AFF00EF1B06 /* BPage1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPage1Controller.m; sourceTree = "<group>"; };
+		DE2F6A3E262E5AFF00EF1B06 /* BPage1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BPage1Controller.xib; sourceTree = "<group>"; };
+		DE2F6A47262E5B1600EF1B06 /* CPage1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPage1Controller.h; sourceTree = "<group>"; };
+		DE2F6A48262E5B1600EF1B06 /* CPage1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPage1Controller.m; sourceTree = "<group>"; };
+		DE2F6A49262E5B1600EF1B06 /* CPage1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPage1Controller.xib; sourceTree = "<group>"; };
+		DE2F6A6A262E6B0000EF1B06 /* DRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRouter.m; sourceTree = "<group>"; };
+		DE2F6A6B262E6B0000EF1B06 /* DRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRouter.h; sourceTree = "<group>"; };
+		DE2F6A70262E6CAC00EF1B06 /* Target_Commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Commons.h; sourceTree = "<group>"; };
+		DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Commons.m; sourceTree = "<group>"; };
+		DE2F6AA0262E746800EF1B06 /* DRouter+A_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+A_Module.h"; sourceTree = "<group>"; };
+		DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+A_Module.m"; sourceTree = "<group>"; };
+		DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYSKVO.m"; sourceTree = "<group>"; };
+		DE2F6AB6262E87A100EF1B06 /* NSObject+XYSKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYSKVO.h"; sourceTree = "<group>"; };
+		DE2F6ABB262E9F7900EF1B06 /* DRouter+B_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+B_Module.h"; sourceTree = "<group>"; };
+		DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+B_Module.m"; sourceTree = "<group>"; };
+		DE2F6AC7262EA2CA00EF1B06 /* DRouter+C_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+C_Module.h"; sourceTree = "<group>"; };
+		DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+C_Module.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +163,9 @@
 		DE1961B3262D17DC0093BB9B /* RouterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DE196281262D2EF00093BB9B /* DRouter */,
 				DE19622A262D1CF00093BB9B /* Category */,
-				DE196214262D1AD70093BB9B /* Base */,
+				DE196214262D1AD70093BB9B /* BaseModule */,
 				DE19620D262D1A710093BB9B /* Main */,
 				DE1961F0262D18920093BB9B /* A_Module */,
 				DE1961EE262D187F0093BB9B /* B_Module */,
@@ -185,6 +204,7 @@
 		DE1961EC262D187F0093BB9B /* C_Module */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F6A1D262D4D1B00EF1B06 /* Mediator */,
 				DE1961ED262D187F0093BB9B /* Controller */,
 			);
 			path = C_Module;
@@ -196,9 +216,9 @@
 				DE196205262D19090093BB9B /* CHomeController.h */,
 				DE196206262D19090093BB9B /* CHomeController.m */,
 				DE196207262D19090093BB9B /* CHomeController.xib */,
-				DE196276262D2E2F0093BB9B /* CDetailController.h */,
-				DE196277262D2E2F0093BB9B /* CDetailController.m */,
-				DE196278262D2E2F0093BB9B /* CDetailController.xib */,
+				DE2F6A47262E5B1600EF1B06 /* CPage1Controller.h */,
+				DE2F6A48262E5B1600EF1B06 /* CPage1Controller.m */,
+				DE2F6A49262E5B1600EF1B06 /* CPage1Controller.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,6 +226,7 @@
 		DE1961EE262D187F0093BB9B /* B_Module */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F6A1C262D4D1100EF1B06 /* Mediator */,
 				DE1961EF262D187F0093BB9B /* Controller */,
 			);
 			path = B_Module;
@@ -217,9 +238,9 @@
 				DE1961FD262D18F80093BB9B /* BHomeController.h */,
 				DE1961FE262D18F80093BB9B /* BHomeController.m */,
 				DE1961FF262D18F80093BB9B /* BHomeController.xib */,
-				DE19626E262D2E210093BB9B /* BDetailController.h */,
-				DE19626F262D2E210093BB9B /* BDetailController.m */,
-				DE196270262D2E210093BB9B /* BDetailController.xib */,
+				DE2F6A3C262E5AFF00EF1B06 /* BPage1Controller.h */,
+				DE2F6A3D262E5AFF00EF1B06 /* BPage1Controller.m */,
+				DE2F6A3E262E5AFF00EF1B06 /* BPage1Controller.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,6 +248,7 @@
 		DE1961F0262D18920093BB9B /* A_Module */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F6A1B262D4D0900EF1B06 /* Mediator */,
 				DE1961F1262D18920093BB9B /* Controller */,
 			);
 			path = A_Module;
@@ -238,9 +260,9 @@
 				DE1961F2262D18E50093BB9B /* AHomeController.h */,
 				DE1961F3262D18E50093BB9B /* AHomeController.m */,
 				DE1961F4262D18E50093BB9B /* AHomeController.xib */,
-				DE196266262D2E100093BB9B /* ADetailController.h */,
-				DE196267262D2E100093BB9B /* ADetailController.m */,
-				DE196268262D2E100093BB9B /* ADetailController.xib */,
+				DE2F6A31262E5AE400EF1B06 /* APage1Controller.h */,
+				DE2F6A32262E5AE400EF1B06 /* APage1Controller.m */,
+				DE2F6A33262E5AE400EF1B06 /* APage1Controller.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,14 +276,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		DE196214262D1AD70093BB9B /* Base */ = {
+		DE196214262D1AD70093BB9B /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
 				DE19621C262D1BCB0093BB9B /* BaseNavigationController */,
 				DE19621F262D1BCB0093BB9B /* BaseViewController */,
 				DE196215262D1AD70093BB9B /* BaseTabBarController */,
 			);
-			path = Base;
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
 		DE196215262D1AD70093BB9B /* BaseTabBarController */ = {
@@ -306,6 +328,46 @@
 				DE19622D262D1D0B0093BB9B /* UIColor+RGBColor.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		DE196281262D2EF00093BB9B /* DRouter */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F6AB6262E87A100EF1B06 /* NSObject+XYSKVO.h */,
+				DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */,
+				DE2F6A6B262E6B0000EF1B06 /* DRouter.h */,
+				DE2F6A6A262E6B0000EF1B06 /* DRouter.m */,
+				DE2F6A70262E6CAC00EF1B06 /* Target_Commons.h */,
+				DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */,
+			);
+			path = DRouter;
+			sourceTree = "<group>";
+		};
+		DE2F6A1B262D4D0900EF1B06 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F6AA0262E746800EF1B06 /* DRouter+A_Module.h */,
+				DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DE2F6A1C262D4D1100EF1B06 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F6ABB262E9F7900EF1B06 /* DRouter+B_Module.h */,
+				DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DE2F6A1D262D4D1B00EF1B06 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F6AC7262EA2CA00EF1B06 /* DRouter+C_Module.h */,
+				DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */,
+			);
+			path = Mediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,13 +472,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE19627A262D2E2F0093BB9B /* CDetailController.xib in Resources */,
-				DE196272262D2E210093BB9B /* BDetailController.xib in Resources */,
+				DE2F6A35262E5AE400EF1B06 /* APage1Controller.xib in Resources */,
+				DE2F6A40262E5AFF00EF1B06 /* BPage1Controller.xib in Resources */,
+				DE2F6A4B262E5B1600EF1B06 /* CPage1Controller.xib in Resources */,
 				DE1961C4262D17E00093BB9B /* LaunchScreen.storyboard in Resources */,
 				DE1961C1262D17E00093BB9B /* Assets.xcassets in Resources */,
 				DE1961F6262D18E50093BB9B /* AHomeController.xib in Resources */,
 				DE196209262D19090093BB9B /* CHomeController.xib in Resources */,
-				DE19626A262D2E100093BB9B /* ADetailController.xib in Resources */,
 				DE196201262D18F80093BB9B /* BHomeController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,18 +505,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1961BC262D17DC0093BB9B /* ViewController.m in Sources */,
+				DE2F6ABD262E9F7900EF1B06 /* DRouter+B_Module.m in Sources */,
 				DE1961B6262D17DC0093BB9B /* AppDelegate.m in Sources */,
+				DE2F6A72262E6CAC00EF1B06 /* Target_Commons.m in Sources */,
+				DE2F6AA2262E746800EF1B06 /* DRouter+A_Module.m in Sources */,
 				DE196223262D1BCB0093BB9B /* BaseViewController.m in Sources */,
 				DE196208262D19090093BB9B /* CHomeController.m in Sources */,
-				DE196279262D2E2F0093BB9B /* CDetailController.m in Sources */,
+				DE2F6A34262E5AE400EF1B06 /* APage1Controller.m in Sources */,
 				DE1961C7262D17E00093BB9B /* main.m in Sources */,
+				DE2F6A4A262E5B1600EF1B06 /* CPage1Controller.m in Sources */,
 				DE196222262D1BCB0093BB9B /* BaseNavigationController.m in Sources */,
 				DE196218262D1AD70093BB9B /* BaseTabBarController.m in Sources */,
+				DE2F6AB7262E87A100EF1B06 /* NSObject+XYSKVO.m in Sources */,
 				DE19622E262D1D0B0093BB9B /* UIColor+RGBColor.m in Sources */,
 				DE196210262D1A720093BB9B /* MainController.m in Sources */,
-				DE196271262D2E210093BB9B /* BDetailController.m in Sources */,
 				DE1961F5262D18E50093BB9B /* AHomeController.m in Sources */,
-				DE196269262D2E100093BB9B /* ADetailController.m in Sources */,
+				DE2F6A6C262E6B0000EF1B06 /* DRouter.m in Sources */,
+				DE2F6AC9262EA2CA00EF1B06 /* DRouter+C_Module.m in Sources */,
+				DE2F6A3F262E5AFF00EF1B06 /* BPage1Controller.m in Sources */,
 				DE196200262D18F80093BB9B /* BHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
