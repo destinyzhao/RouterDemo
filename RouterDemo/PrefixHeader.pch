@@ -17,5 +17,6 @@
 #import "DRouter+A_Module.h"
 #import "DRouter+B_Module.h"
 #import "DRouter+C_Module.h"
+#import <HHRouter/HHRouter.h>
 
 #endif /* PrefixHeader_pch */

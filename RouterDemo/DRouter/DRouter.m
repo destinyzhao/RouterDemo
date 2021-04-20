@@ -7,7 +7,7 @@
 
 #import "DRouter.h"
 
-NSString * const DRouterParamsKeySwiftTargetModuleName = @"GMRouterParamsKeySwiftTargetModuleName";
+NSString * const DRouterParamsKeySwiftTargetModuleName = @"DRouterParamsKeySwiftTargetModuleName";
 
 @interface DRouter()
 @property (nonatomic, strong) NSMutableDictionary *cachedTarget;

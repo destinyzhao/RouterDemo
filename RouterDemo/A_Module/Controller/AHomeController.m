@@ -60,7 +60,6 @@
 {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     [param setValue:@"APage1Controller" forKey:@"vcClassName"];
-    [param setValue:@"A_Module_Page1" forKey:@"vcTitle"];
     [param setValue:@"callback" forKey:@"callback"];
     
     UIViewController *viewController = [[DRouter sharedInstance]mediator_AModulePage1:param completion:^(NSDictionary * _Nonnull dic) {
@@ -74,7 +73,6 @@
 {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     [param setValue:@"BPage1Controller" forKey:@"vcClassName"];
-    [param setValue:@"B_Module_Page1" forKey:@"vcTitle"];
     [param setValue:@"callback" forKey:@"callback"];
     
     UIViewController *viewController = [[DRouter sharedInstance]mediator_BModulePage1:param completion:^(NSDictionary * _Nonnull dic) {
@@ -88,7 +86,6 @@
 {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     [param setValue:@"CPage1Controller" forKey:@"vcClassName"];
-    [param setValue:@"C_Module_Page1" forKey:@"vcTitle"];
     [param setValue:@"callback" forKey:@"callback"];
     
     UIViewController *viewController = [[DRouter sharedInstance]mediator_CModulePage1:param completion:^(NSDictionary * _Nonnull dic) {

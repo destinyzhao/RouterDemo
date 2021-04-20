@@ -16,13 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"C_Module_Page1";
 }
 
 - (IBAction)blockAction:(UIButton *)sender {
-    if(self.didViewControllerBlock){
+    if(self.backBlock){
         [self.navigationController popViewControllerAnimated:YES];
         
-        self.didViewControllerBlock(@{@"value":@"C_Module_Page1_Block"});
+        self.backBlock(@{@"value":@"C_Module_Page1_Block"});
     }else{
         [self.navigationController popViewControllerAnimated:YES];
     }

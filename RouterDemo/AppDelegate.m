@@ -24,9 +24,15 @@
     MainController *minTabBar = [[MainController alloc]init];
     self.window.rootViewController = minTabBar;
     
+    [self loadHHRouter];
+    
     [self.window makeKeyAndVisible];
 
     return YES;
+}
+
+- (void)loadHHRouter{
+    [[HHRouter shared] map:@"APage1Controller" toControllerClass:NSClassFromString(@"APage1Controller")];
 }
 
 

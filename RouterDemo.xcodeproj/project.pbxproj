@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1CB8370405BC9E9E39DC3E /* Pods_RouterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F121633BC05C5731645C12 /* Pods_RouterDemo.framework */; };
 		DE1961B6262D17DC0093BB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961B5262D17DC0093BB9B /* AppDelegate.m */; };
 		DE1961BC262D17DC0093BB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1961BB262D17DC0093BB9B /* ViewController.m */; };
 		DE1961C1262D17E00093BB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1961C0262D17E00093BB9B /* Assets.xcassets */; };
@@ -34,7 +35,6 @@
 		DE2F6A6C262E6B0000EF1B06 /* DRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A6A262E6B0000EF1B06 /* DRouter.m */; };
 		DE2F6A72262E6CAC00EF1B06 /* Target_Commons.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */; };
 		DE2F6AA2262E746800EF1B06 /* DRouter+A_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */; };
-		DE2F6AB7262E87A100EF1B06 /* NSObject+XYSKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */; };
 		DE2F6ABD262E9F7900EF1B06 /* DRouter+B_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */; };
 		DE2F6AC9262EA2CA00EF1B06 /* DRouter+C_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */; };
 /* End PBXBuildFile section */
@@ -57,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F121633BC05C5731645C12 /* Pods_RouterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91FC45781DA55798A665125 /* Pods-RouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-RouterDemo/Pods-RouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D02F05C2D7667DEFAD51B295 /* Pods-RouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterDemo.release.xcconfig"; path = "Target Support Files/Pods-RouterDemo/Pods-RouterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE1961B1262D17DC0093BB9B /* RouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1961B4262D17DC0093BB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE1961B5262D17DC0093BB9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,8 +110,6 @@
 		DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Commons.m; sourceTree = "<group>"; };
 		DE2F6AA0262E746800EF1B06 /* DRouter+A_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+A_Module.h"; sourceTree = "<group>"; };
 		DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+A_Module.m"; sourceTree = "<group>"; };
-		DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYSKVO.m"; sourceTree = "<group>"; };
-		DE2F6AB6262E87A100EF1B06 /* NSObject+XYSKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYSKVO.h"; sourceTree = "<group>"; };
 		DE2F6ABB262E9F7900EF1B06 /* DRouter+B_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+B_Module.h"; sourceTree = "<group>"; };
 		DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+B_Module.m"; sourceTree = "<group>"; };
 		DE2F6AC7262EA2CA00EF1B06 /* DRouter+C_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+C_Module.h"; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1CB8370405BC9E9E39DC3E /* Pods_RouterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +142,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E61549613C464344586A234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F121633BC05C5731645C12 /* Pods_RouterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2998BE49C24AF0EED72142A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A91FC45781DA55798A665125 /* Pods-RouterDemo.debug.xcconfig */,
+				D02F05C2D7667DEFAD51B295 /* Pods-RouterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE1961A8262D17DC0093BB9B = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +167,8 @@
 				DE1961CF262D17E10093BB9B /* RouterDemoTests */,
 				DE1961DA262D17E10093BB9B /* RouterDemoUITests */,
 				DE1961B2262D17DC0093BB9B /* Products */,
+				C2998BE49C24AF0EED72142A /* Pods */,
+				3E61549613C464344586A234 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -333,8 +355,6 @@
 		DE196281262D2EF00093BB9B /* DRouter */ = {
 			isa = PBXGroup;
 			children = (
-				DE2F6AB6262E87A100EF1B06 /* NSObject+XYSKVO.h */,
-				DE2F6AB5262E87A100EF1B06 /* NSObject+XYSKVO.m */,
 				DE2F6A6B262E6B0000EF1B06 /* DRouter.h */,
 				DE2F6A6A262E6B0000EF1B06 /* DRouter.m */,
 				DE2F6A70262E6CAC00EF1B06 /* Target_Commons.h */,
@@ -377,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1961E0262D17E10093BB9B /* Build configuration list for PBXNativeTarget "RouterDemo" */;
 			buildPhases = (
+				3DA17A0ECE795CFA4123315A /* [CP] Check Pods Manifest.lock */,
 				DE1961AD262D17DC0093BB9B /* Sources */,
 				DE1961AE262D17DC0093BB9B /* Frameworks */,
 				DE1961AF262D17DC0093BB9B /* Resources */,
+				6BB2EEED0786F2728EA56ABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -499,6 +521,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DA17A0ECE795CFA4123315A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB2EEED0786F2728EA56ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouterDemo/Pods-RouterDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouterDemo/Pods-RouterDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RouterDemo/Pods-RouterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE1961AD262D17DC0093BB9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -516,7 +580,6 @@
 				DE2F6A4A262E5B1600EF1B06 /* CPage1Controller.m in Sources */,
 				DE196222262D1BCB0093BB9B /* BaseNavigationController.m in Sources */,
 				DE196218262D1AD70093BB9B /* BaseTabBarController.m in Sources */,
-				DE2F6AB7262E87A100EF1B06 /* NSObject+XYSKVO.m in Sources */,
 				DE19622E262D1D0B0093BB9B /* UIColor+RGBColor.m in Sources */,
 				DE196210262D1A720093BB9B /* MainController.m in Sources */,
 				DE1961F5262D18E50093BB9B /* AHomeController.m in Sources */,
@@ -688,6 +751,7 @@
 		};
 		DE1961E1262D17E10093BB9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91FC45781DA55798A665125 /* Pods-RouterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -706,6 +770,7 @@
 		};
 		DE1961E2262D17E10093BB9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02F05C2D7667DEFAD51B295 /* Pods-RouterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
