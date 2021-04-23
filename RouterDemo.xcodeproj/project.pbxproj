@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,8 @@
 		DE2F6AA2262E746800EF1B06 /* DRouter+A_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AA1262E746800EF1B06 /* DRouter+A_Module.m */; };
 		DE2F6ABD262E9F7900EF1B06 /* DRouter+B_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */; };
 		DE2F6AC9262EA2CA00EF1B06 /* DRouter+C_Module.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */; };
+		DEEA90B42631626A009E40C2 /* UIViewController+Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA90B32631626A009E40C2 /* UIViewController+Parameter.m */; };
+		DEEA90DC2632AEE3009E40C2 /* UIViewController+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA90DB2632AEE3009E40C2 /* UIViewController+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,10 @@
 		DE2F6ABC262E9F7900EF1B06 /* DRouter+B_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+B_Module.m"; sourceTree = "<group>"; };
 		DE2F6AC7262EA2CA00EF1B06 /* DRouter+C_Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRouter+C_Module.h"; sourceTree = "<group>"; };
 		DE2F6AC8262EA2CA00EF1B06 /* DRouter+C_Module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRouter+C_Module.m"; sourceTree = "<group>"; };
+		DEEA90B22631626A009E40C2 /* UIViewController+Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Parameter.h"; sourceTree = "<group>"; };
+		DEEA90B32631626A009E40C2 /* UIViewController+Parameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Parameter.m"; sourceTree = "<group>"; };
+		DEEA90DA2632AEE3009E40C2 /* UIViewController+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Block.h"; sourceTree = "<group>"; };
+		DEEA90DB2632AEE3009E40C2 /* UIViewController+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +162,6 @@
 				A91FC45781DA55798A665125 /* Pods-RouterDemo.debug.xcconfig */,
 				D02F05C2D7667DEFAD51B295 /* Pods-RouterDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -359,6 +364,10 @@
 				DE2F6A6A262E6B0000EF1B06 /* DRouter.m */,
 				DE2F6A70262E6CAC00EF1B06 /* Target_Commons.h */,
 				DE2F6A71262E6CAC00EF1B06 /* Target_Commons.m */,
+				DEEA90B22631626A009E40C2 /* UIViewController+Parameter.h */,
+				DEEA90B32631626A009E40C2 /* UIViewController+Parameter.m */,
+				DEEA90DA2632AEE3009E40C2 /* UIViewController+Block.h */,
+				DEEA90DB2632AEE3009E40C2 /* UIViewController+Block.m */,
 			);
 			path = DRouter;
 			sourceTree = "<group>";
@@ -573,6 +582,7 @@
 				DE1961B6262D17DC0093BB9B /* AppDelegate.m in Sources */,
 				DE2F6A72262E6CAC00EF1B06 /* Target_Commons.m in Sources */,
 				DE2F6AA2262E746800EF1B06 /* DRouter+A_Module.m in Sources */,
+				DEEA90DC2632AEE3009E40C2 /* UIViewController+Block.m in Sources */,
 				DE196223262D1BCB0093BB9B /* BaseViewController.m in Sources */,
 				DE196208262D19090093BB9B /* CHomeController.m in Sources */,
 				DE2F6A34262E5AE400EF1B06 /* APage1Controller.m in Sources */,
@@ -584,6 +594,7 @@
 				DE196210262D1A720093BB9B /* MainController.m in Sources */,
 				DE1961F5262D18E50093BB9B /* AHomeController.m in Sources */,
 				DE2F6A6C262E6B0000EF1B06 /* DRouter.m in Sources */,
+				DEEA90B42631626A009E40C2 /* UIViewController+Parameter.m in Sources */,
 				DE2F6AC9262EA2CA00EF1B06 /* DRouter+C_Module.m in Sources */,
 				DE2F6A3F262E5AFF00EF1B06 /* BPage1Controller.m in Sources */,
 				DE196200262D18F80093BB9B /* BHomeController.m in Sources */,

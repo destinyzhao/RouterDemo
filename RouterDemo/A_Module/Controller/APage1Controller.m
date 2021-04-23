@@ -6,6 +6,9 @@
 //
 
 #import "APage1Controller.h"
+#import "UIViewController+Parameter.h"
+#import "UIViewController+Block.h"
+
 
 @interface APage1Controller ()
 
@@ -19,7 +22,8 @@
     
     self.title = @"A_Module_Page1";
     
-    NSDictionary *vauleParameter = [self valueForKey:@"vauleParameter"];
+    
+    NSDictionary *vauleParameter = self.parameter;
     
     if(vauleParameter != nil){
         [self showAlert:[vauleParameter objectForKey:@"value"]];
@@ -28,6 +32,7 @@
 }
 
 - (IBAction)blockAction:(UIButton *)sender {
+    
     if(self.backBlock){
         [self.navigationController popViewControllerAnimated:YES];
         

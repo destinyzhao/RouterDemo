@@ -8,13 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-typedef  void (^BackBlock)(NSDictionary *valueDic);
-
 @interface BaseViewController : UIViewController
 
-@property (strong, nonatomic) NSDictionary *vauleParameter;
-/** 完成的回调block */
-@property (nonatomic, copy) BackBlock backBlock;
 
 - (void)onGoBack;
 
@@ -25,5 +20,6 @@ typedef  void (^BackBlock)(NSDictionary *valueDic);
  @param rightAction 按钮事件
  */
 - (void)setupNavigationRightItem:(UIImage *)rightImg  rightAction:(SEL)rightAction;
+
 
 @end

@@ -6,6 +6,7 @@
 //
 
 #import "BPage1Controller.h"
+#import "UIViewController+Block.h"
 
 @interface BPage1Controller ()
 

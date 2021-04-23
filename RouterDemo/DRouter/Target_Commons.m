@@ -6,6 +6,8 @@
 //
 
 #import "Target_Commons.h"
+#import "UIViewController+Parameter.h"
+#import "UIViewController+Block.h"
 #import <objc/runtime.h>
 
 typedef void (^callBlock)(NSDictionary *);
@@ -20,22 +22,23 @@ NSString * const DRouterTargetCommons = @"Commons";
 - (UIViewController *)Action_Push_CommonController:(NSDictionary *)params{
     NSString *vcClassName = params[@"vcClassName"];
     
-//    callBlock callback = params[@"callback"];
+    callBlock callback = params[@"callback"];
     
     Class class = NSClassFromString(vcClassName);
     UIViewController *controller = [[class alloc] init];
     //传值
     if([params objectForKey:@"vauleParameter"] != nil){
-        [controller setValue:[params objectForKey:@"vauleParameter"] forKey:@"vauleParameter"];
+        controller.parameter = [params objectForKey:@"vauleParameter"];
     }
-    
-//    controller.backBlock = ^(NSDictionary *valueDic) {
-//        if (callback) {
-//            callback(valueDic);
-//        }
-//    };
+    //参数回调
+    if(callback != nil){
+        controller.backBlock = ^(NSDictionary * _Nonnull parameter) {
+            callback(parameter);
+        };
+    }
     
     return controller;
 }
+
 
 @end

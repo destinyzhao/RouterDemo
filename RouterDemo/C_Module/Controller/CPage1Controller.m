@@ -6,6 +6,7 @@
 //
 
 #import "CPage1Controller.h"
+#import "UIViewController+Block.h"
 
 @interface CPage1Controller ()
 
